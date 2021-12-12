@@ -31,14 +31,16 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="120dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Кнопка" />
+            android:text="Переход на второе задание"
+            android:onClick="Click"/>
 
         <Switch
             android:id="@+id/switch1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
 
         <CheckBox
             android:id="@+id/checkBox"
