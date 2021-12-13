@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:text="Текст" />
+        android:text="@string/edit_text_res1" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -17,7 +19,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Имярек" />
+        android:text="@string/edit_text_res2" />
 
     <EditText
         android:id="@+id/editTextPhone"
@@ -25,7 +27,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="phone"
-        android:text="+7 (999) 123 45-67" />/>
+        android:text="@string/edit_text_res3" />/>
 
     <EditText
         android:id="@+id/editTextNumber1"
@@ -33,7 +35,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:text="1234567"/>
+        android:text="@string/edit_text_res4"/>
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -48,7 +50,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="name@mail.zone"/>
+        android:text="@string/edit_text_res5"/>
 
     <EditText
         android:id="@+id/editTextTime"
@@ -56,7 +58,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="time"
-        android:text="12:30"/>
+        android:text="@string/edit_text_res6"/>
 
     <EditText
         android:id="@+id/editTextDate"
@@ -64,5 +66,5 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="date"
-        android:text="12.12.12"/>
+        android:text="@string/edit_text_res7"/>
 </LinearLayout>
