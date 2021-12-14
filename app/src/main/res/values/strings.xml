@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">eapp</string>
+    <string name="edit_text_res1">Текст</string>
+    <string name="edit_text_res2">Имярек</string>
+    <string name="edit_text_res3">+7 (999) 123 45-67</string>
+    <string name="edit_text_res4">1234567</string>
+    <string name="edit_text_res5">name@mail.zone</string>
+    <string name="edit_text_res6">12:30</string>
+    <string name="edit_text_res7">12.12.12</string>
+    <string name="act_main_res1">Жирный синий текст</string>
+    <string name="act_main_res2">Имярек</string>
+    <string name="act_main_res3">Переход на второе задание</string>
+    <string name="act_main_res4">Поставить галочку</string>
+    <string name="act_main_res5">ToggleButton</string>
 </resources>
